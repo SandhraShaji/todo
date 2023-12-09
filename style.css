@@ -1,0 +1,73 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#edt{
+    background-color: transparent;
+    border: none;
+    margin-left: 60px;
+}
+#del{
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+}
+.task{
+    margin: 8px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+#newtask{
+    width: 320px;
+    margin-top: 18%;
+    margin-left: 12%;
+}
+body{
+    background-image: url('./images/todowall-6k4k2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#inp{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    padding: 5px;
+    width: 270px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px rgb(97, 97, 97);
+    text-align: center;
+}
+#push{
+    margin-block: 10px;
+    padding-block: 5px;
+    padding-inline: 20px;
+    border: none;
+    background-color: rgb(31, 96, 31);
+    border-radius: 15px;
+    color: whitesmoke;
+}
+#tasks{
+    margin-top: 14%;
+    margin-left: 6%;
+    width: 320px;
+}
+@media only screen and (max-width: 600px){
+    .row{
+        flex-direction: column;
+    }
+    #tasks{
+        margin-top: 28%;
+        margin-left: 7%;
+    }
+    #newtask{
+        margin-top: 200px;
+    }
+    #inp{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #push{
+        margin-block: 10px;
+    }
+}
